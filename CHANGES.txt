@@ -1,6 +1,18 @@
-Version X.Y.Z | YYYY-mmm-DD
- - Initial Prototype
- - <SUMMARIZE KEY FEATURES>
+Version 1.0.0 | 2022-05-30
+ - Updated version by Neil Squire / Makers Making Change
+ - Key Updates:
+        - Modified pin holes in base for printing consistency
+        - Created 3D printed pins
+        - Added texture on top to indicate where to press
+
+Version 0.1.0 | 2018-11-14
+ - Initial Prototype by Kevin Cross
+ - https://www.thingiverse.com/thing:3211154
+ - Key Features:
+        - Low force
+        - 3D printed
+        - 3.5 mm mono cable
+        - Single and double switch base created
 
 
 

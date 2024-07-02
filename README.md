@@ -13,7 +13,7 @@ This template has a number of fields that can be searched and replaced with othe
  - <Device_Name> Replace this with filename-friendly version of the device with underscores. e.g., Open_Wobble_Switch
  - <DeviceName> Replace this with the human-readable name of the device with spaces. e.g., Open Wobble Switch
  - <DesignerName> Replace this with the person or organization responsible for the design. e.g., John Doe.
- - <RepositoryLink> Replace this with the web address for the repository. e.g., (e.g., https://github.com/makersmakingchange/Open-Wobble-Switch))
+ - <Repository_Link> Replace this with the web address for the repository. e.g., (e.g., https://github.com/makersmakingchange/Open-Wobble-Switch))
  - <MMCWebLink> This is the website address including an alphanumeric id for the Makers Making Change Website. e.g., 01tJR000000698oYAA. This will come from MMC staff.  
  - <MaterialCost> Replace this with the dollar cost and currency (CAD, USD, etc.) of the materials of the device.
  - <ShippingCost> Replace this with the dollar cost and currency (CAD, USD, etc.) of shipping the device (if possible).
@@ -24,23 +24,23 @@ Any text that is currently holding a space / is an instruction for the person fi
 --->
  
 <!--- TITLE --->
-# <DeviceName>
+# Light Touch Switch
 <!--- Should match the name of the GitHub repository. Choose something descriptive rather than whimsical.  --->
 
 ## Overview
 <!--- A brief summary of the project. What it does, who it is for, how much it costs. --->
-The <DeviceName> is an assistive technology device that <INSERT DESCRIPTION FROM THE OUTLINE OF The DEVICE>. 
+The Light Touch Switch is a low force, 3D printed assistive switch that works with standard switch adapted devices, like switch adapted toys; computer, phone, and tablet switch interfaces; and adapted gaming devices. 
 
-<MODIFY LINE AS NECESSARY> The device is comprised of off-the-shelf electronics and 3D printed parts. 
+The device is comprised of off-the-shelf electronics and 3D printed parts. 
 
-The <DeviceName> is open assistive technology (OpenAT). Under the terms of the open source licenses, the device may be built, used, and improved upon by anyone.
+The Light Touch Switch is open assistive technology (OpenAT). Under the terms of the open source licenses, the device may be built, used, and improved upon by anyone.
 
-The overall cost of materials is about $<MaterialCost> (plus $<ShippingCost> for component shipping).
+The overall cost of materials is about $2.50 CAD (plus $23 CAD for component shipping).
 
-<img src="Photos/<Device_Name>.jpg" width="500" alt="Picture of <DeviceName>.">
+<img src="Photos/Light_Touch_Switch.jpg" width="500" alt="Picture of Light Touch Switch.">
 
 ## Makers Making Change Assistive Device Library
-- <MMCWebLink>
+- https://www.makersmakingchange.com/s/product/light-touch-switch/01tJR00000068zTYAQ
 
 ## How to Obtain the Device
 ### 1. Do-it-Yourself (DIY) or Do-it-Together (DIT)
@@ -49,7 +49,7 @@ This is an open-source assistive technology, so anyone is free to build it. All 
 
 ### 2. Request a build of this device
 
-You may also submit a build request through the [Makers Making Change Assistive Device Library Listing](<MMCWebLink>) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
+You may also submit a build request through the [Makers Making Change Assistive Device Library Listing](https://www.makersmakingchange.com/s/product/light-touch-switch/01tJR00000068zTYAQ) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
 
 ### 3. Build this device for someone else
 
@@ -61,21 +61,21 @@ If you have the skills and equipment to build this device, and would like to don
 
 ### 1. Read through the Maker Guide
 
-The [Maker Guide](/Documentation/<Device_Name>_Maker_Guide.pdf)  contains all the necessary information to build this device, including tool lists, assembly instructions, programming instructions (if applicable) and testing.
+The [Maker Guide](/Documentation/Light_Touch_Switch_Maker_Guide.pdf)  contains all the necessary information to build this device, including tool lists, assembly instructions, programming instructions (if applicable) and testing.
 
 
 ### 2. Order the Off-The-Shelf Components
 
-The [Bill of Materials](/Documentation/<Device_Name>_BOM.xlsx) lists all of the parts and components required to build the device.
+The [Bill of Materials](/Documentation/Light_Touch_Switch_BOM.xlsx) lists all of the parts and components required to build the device.
 
 
 ### 3. Print the 3D Printable components
 
 All of the files and individual print files can be in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing_Files/) folder.
 
-### 4. Assemble the <DeviceName>
+### 4. Assemble the Light Touch Switch
 
-Reference the Assembly Guide section of the [Maker Guide](/Documentation/<Device_Name>_Maker_Guide.pdf) for the tools and steps required to build the device.
+Reference the Assembly Guide section of the [Maker Guide](/Documentation/Light_Touch_Switch_Maker_Guide.pdf) for the tools and steps required to build the device.
 
 ## How to improve this Device
 As open source assistive technology, you are welcomed and encouraged to improve upon the design. 
@@ -85,27 +85,24 @@ As open source assistive technology, you are welcomed and encouraged to improve 
 <!--- Update the name, link, and version for documentation --->
 | Document             | Version | Link |
 |----------------------|---------|------|
-| Design Rationale     | 1.0     | [<DeviceName>_Design_Rationale](/Documentation/<Device_Name>_Design_Rationale.pdf)     |
-| Maker Guide          | 1.0     | [<DeviceName>_Maker_Checklist](/Documentation/<Device_Name>_Maker_Guide.pdf)     |
-| Bill of Materials    | 1.0     | [<DeviceName>_Bill_of_Materials](/Documentation/<Device_Name>_BOM.xlsx)     |
-| User Guide           | 1.0     | [<DeviceName>_User_Guide](/Documentation/<Device_Name>_User_Guide.pdf)    |
+| Design Rationale     | 1.0     | [Light Touch Switch_Design_Rationale](/Documentation/Light_Touch_Switch_Design_Rationale.pdf)     |
+| Maker Guide          | 1.0     | [Light Touch Switch_Maker_Checklist](/Documentation/Light_Touch_Switch_Maker_Guide.pdf)     |
+| Bill of Materials    | 1.0     | [Light Touch Switch_Bill_of_Materials](/Documentation/Light_Touch_Switch_BOM.xlsx)     |
+| User Guide           | 1.0     | [Light Touch Switch_User_Guide](/Documentation/Light_Touch_Switch_User_Guide.pdf)    |
 | Changelog            | 1.0     | [Changelog](CHANGES.txt)     |
 
 ### Design Files
 <!--- Include a copy of the original design files to facilitate easy editing and customization. Consider also including a generic format (e.g., STEP) --->
  - [CAD Files](/Design_Files/CAD_Design_Files)
- - [PCB Files](/Design_Files/PCB_Design_Files)
 
 ### Build Files
 <!--- Include a copy of the build files intended for manufacturing. This may include svg files for laser cutting, stl files for 3d printing, Gerber files for custom PCBs, and Arduino files for custom firmware. --->
  - [3D Printing Files](/Build_Files/3D_Printing_Files)
- - [PCB Build Files](/Build_Files/PCB_Build_Files)
- - [Firmware Files](/Build/Firmware_Files)
 
 
 ## License
 <!--- Add the year(s) for the copyright and the Designer Name. You may use the standard set of open licenses or choose your own for the hardware, software, and accompanying materials. --->
-Copyright (c) <YEAR> <DesignerName>.
+Copyright (c) 2024 by Neil Squire.
 
 This repository describes Open Hardware:
  - Everything needed or used to design, make, test, or prepare the <Device-Name> is licensed under the [CERN 2.0 Weakly Reciprocal license (CERN-OHL-W v2) or later](https://cern.ch/cern-ohl ) .
@@ -116,11 +113,13 @@ You may redistribute and modify this documentation and make products using it un
 This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
 Please see the CERN-OHL-W v2 for applicable conditions.
 
-Source Location: <Repository_Link> 
+Source Location: https://github.com/makersmakingchange/Light-Touch-Switch
 
 ## Attribution
 <!--- Provide any necessary attribution for designs or components that are included in the device or as part of the project. --->
-The device was designed by <DesignerName>. 
+The device was originally designed by Kevin Cross. 
+https://www.thingiverse.com/davross/designs
+https://www.thingiverse.com/thing:3211154
 
 <!--- This is the attribution for the template. --->
 The documentation template was created by Makers Making Change / Neil Squire Society and is used under a CC BY-SA 4.0 license. It is available at the following link: [https://github.com/makersmakingchange/OpenAT-Template](https://github.com/makersmakingchange/OpenAT-Template)
@@ -128,14 +127,7 @@ The documentation template was created by Makers Making Change / Neil Squire Soc
 ### Contributors
 <!--- List the names of the people that contributed to the design. This could include the original source of the idea, designers, testers, documenters, etc. --->
 Designers:
- - <DESIGNER 1>
- - <DESIGNER 2>
-
-Testers:
- - <TESTER 1>
- - <TESTER 2>
-
-
+ - Neil Squire / Makers Making Change
 ---
 
 ## About Makers Making Change
@@ -148,7 +140,7 @@ Makers Making Change leverages the capacity of community based Makers, Disabilit
 
  - Website: [www.MakersMakingChange.com](https://www.makersmakingchange.com/)
  - GitHub: [makersmakingchange](https://github.com/makersmakingchange)
- - X (formally Twitter): [@makermakechange](https://twitter.com/makermakechange)
+ - X (formerly Twitter): [@makermakechange](https://twitter.com/makermakechange)
  - Instagram: [@makersmakingchange](https://www.instagram.com/makersmakingchange)
  - Facebook: [makersmakechange](https://www.facebook.com/makersmakechange)
  - LinkedIn: [Neil Squire Society](https://www.linkedin.com/company/neil-squire-society/)
