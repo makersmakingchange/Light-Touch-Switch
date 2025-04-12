@@ -13,7 +13,7 @@ The Light Touch Switch is open assistive technology (OpenAT). Under the terms of
 
 The overall cost of materials is about $5.90 CAD (plus $8 CAD for component shipping).
 
-<img src="Photos/Light_Touch_Switch.jpg" width="500" alt="Picture of Light Touch Switch.">
+<img src="Photos/Light_Touch_Switch.jpg" height="250" alt="Picture of Light Touch Switch.">
 
 ## Makers Making Change Assistive Device Library
 - https://www.makersmakingchange.com/s/product/light-touch-switch/01tJR00000068zTYAQ
@@ -36,21 +36,17 @@ If you have the skills and equipment to build this device, and would like to don
 <!--- Outline the major steps required to create a build --->
 
 ### 1. Read through the Maker Guide
-
 The [Maker Guide](/Documentation/Light_Touch_Switch_Maker_Guide.pdf)  contains all the necessary information to build this device, including tool lists, assembly instructions, programming instructions (if applicable) and testing.
 
 
 ### 2. Order the Off-The-Shelf Components
-
 The [Bill of Materials](/Documentation/Light_Touch_Switch_BOM.xlsx) lists all of the parts and components required to build the device.
 
 
 ### 3. Print the 3D Printable components
-
 All of the files and individual print files can be found in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing_Files/) folder.
 
 ### 4. Assemble the Light Touch Switch
-
 Reference the Assembly Guide section of the [Maker Guide](/Documentation/Light_Touch_Switch_Maker_Guide.pdf) for the tools and steps required to build the device.
 
 ## How to improve this Device
@@ -93,19 +89,19 @@ Source Location: https://github.com/makersmakingchange/Light-Touch-Switch
 
 ## Attribution
 <!--- Provide any necessary attribution for designs or components that are included in the device or as part of the project. --->
-The device was originally designed by Kevin Cross. 
-https://www.thingiverse.com/davross/designs
-https://www.thingiverse.com/thing:3211154
-
+ - The [original design](https://www.thingiverse.com/thing:3211154) was created by [Kevin Cross](https://www.thingiverse.com/davross/designs) and released with a [CC-BY license](https://creativecommons.org/licenses/by/4.0/). 
+ - The design was modified and documentation was created by Neil Squire Society / Makers Making Change.
 <!--- This is the attribution for the template. --->
-The documentation template was created by Makers Making Change / Neil Squire Society and is used under a CC BY-SA 4.0 license. It is available at the following link: [https://github.com/makersmakingchange/OpenAT-Template](https://github.com/makersmakingchange/OpenAT-Template)
+ - The documentation template was created by Makers Making Change / Neil Squire Society and is used under a CC BY-SA 4.0 license. It is available at the following link: [https://github.com/makersmakingchange/OpenAT-Template](https://github.com/makersmakingchange/OpenAT-Template)
 
 ### Contributors
 <!--- List the names of the people that contributed to the design. This could include the original source of the idea, designers, testers, documenters, etc. --->
 Designers:
  - Neil Squire / Makers Making Change
----
 
+----
+
+<!-- ABOUT MMC START -->
 ## About Makers Making Change
 <!--- This is standard boilerplate for Makers Making Change. No changes should be required. --->
 [<img src="https://raw.githubusercontent.com/makersmakingchange/makersmakingchange/main/img/mmc_logo.svg" width="500" alt="Makers Making Change Logo">](https://www.makersmakingchange.com/)
@@ -125,3 +121,4 @@ Makers Making Change leverages the capacity of community based Makers, Disabilit
 
 ### Contact Us
 For technical questions, to get involved, or to share your experience we encourage you to [visit our website](https://www.makersmakingchange.com/) or [contact us](https://www.makersmakingchange.com/s/contact).
+<!-- ABOUT MMC END -->
